@@ -1,0 +1,146 @@
+body{
+    background: #acedfe;
+}
+.background{
+    position: absolute;
+
+    bottom: 0px;
+    width: 100%;
+    height: 273px;
+    background-image: url("../img/afternoonsmall.png");
+}
+
+.link{
+    position: absolute;
+    bottom: 0;
+    left: -200px;
+    animation: linkmove 15.2s 0s infinite ease-in-out;
+    animation-fill-mode: both;
+}
+.villain{
+    position: absolute;
+    bottom: 0;
+    left: -100px;
+    animation: villainmove 15.2s 0s infinite ease-in-out;
+    animation-fill-mode: both;
+}
+
+@keyframes linkmove {
+    0%{
+        left: -200px;
+    }
+    8%{
+        left: 100px;
+    }
+    18%{
+        bottom:0;
+        left: 100px;
+    }
+    19%{
+        bottom: 50px;
+        left: 150px;
+    }
+    21%{
+        bottom: 0;
+    }
+    25%{
+        left: 150px;
+    }
+    36%{
+        left: 450px;
+    }
+    43%{
+        bottom:0;
+        left: 450px;
+    }
+    44%{
+        bottom: 50px;
+        left: 500px;
+    }
+    46%{
+        bottom: 0;
+    }
+    51%{
+        left: 500px;
+    }
+    59%{
+        left: 800px;
+    }
+    68%{
+        bottom:0;
+        left: 800px;
+    }
+    69%{
+        bottom: 50px;
+        left: 850px;
+    }
+    70%{
+        bottom: 0;
+    }
+    75%{
+        left: 850px;
+    }
+    83%{
+        left: 1000px;
+    }
+    99%{
+        left: 1000px;
+    }
+    100%{
+        left: 1000px
+    }
+
+}
+
+@keyframes villainmove {
+    0%{
+        left: -100px;
+    }
+    8%{
+        left: 200px;
+    }
+    20%{
+        left: 200px;
+    }
+    22%{
+        left: 250px;
+    }
+    25%{
+        left: 250px;
+    }
+    36%{
+        left: 550px;
+    }
+    43%{
+        left: 550px;
+    }
+    44%{
+        left: 600px;
+    }
+    51%{
+        left: 600px;
+    }
+    59%{
+        left: 950px;
+    }
+    68%{
+        left: 950px;
+    }
+    69%{
+        left: 1000px;
+    }
+    75%{
+        left: 1000px;
+    }
+    83%{
+        left: 1100px;
+    }
+    99%{
+        left: 1100px;
+    }
+    100%{
+        left: 1100px
+    }
+
+}
+
